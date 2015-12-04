@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  firstname: MyString
+  company: MyString
+  visitortype: MyString
+  arrival: 2015-12-01 16:26:24
+  departure: 2015-12-01 16:26:24
+  signout: false
+  hsread: false
+  comment: MyString
+
+two:
+  name: MyString
+  firstname: MyString
+  company: MyString
+  visitortype: MyString
+  arrival: 2015-12-01 16:26:24
+  departure: 2015-12-01 16:26:24
+  signout: false
+  hsread: false
+  comment: MyString
