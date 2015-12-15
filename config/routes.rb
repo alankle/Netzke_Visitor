@@ -53,10 +53,12 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  root 'application#hello'
+ 
+
   
   Visitors::Application.routes.draw do
 	netzke
+  root to: "application#index"
   end
   
 end

@@ -7,4 +7,7 @@ def hello
     render text: "hello, world!"
 end
 
+def index
+    render :inline => "<%= netzke :home %>", layout: true
+end
 end

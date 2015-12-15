@@ -23,11 +23,11 @@ class Navigator < Netzke::Base
 		  leaf('Check-in', 'Visite_form', :door_in),
           leaf('Check-out', 'Visites_search', :door_out),		  
 		  leaf('Evacuation', 'Visites', :report_user)
-          
-        ]
+         
+         ]
       }
     }
 
-    super
+   super
   end
 end
