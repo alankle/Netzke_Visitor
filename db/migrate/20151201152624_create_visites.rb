@@ -7,7 +7,7 @@ class CreateVisites < ActiveRecord::Migration
       t.string :visitortype
       t.datetime :arrival
       t.datetime :departure
-      t.boolean :signout
+      t.boolean :checkout
       t.boolean :hsread
       t.string :comment
 
