@@ -15,11 +15,13 @@ class Workspace < Netzke::Basepack::DynamicTabPanel
   #   c.body_padding = 5
   #   c.html = dashboard_html
   # end
-  component :child do |c|
-    c.record_id = c.client_config[:record_id] || c.client_config[:recordId]
-    super c
-	
-  end
+  #component :child do |c|
+  #  c.record_id = c.client_config[:record_id] || c.client_config[:recordId]
+  #  super c
+	#
+  #end
   
-  
+   
+
+
 end

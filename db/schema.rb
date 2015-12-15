@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20151201152624) do
   enable_extension "plpgsql"
 
   create_table "visites", force: :cascade do |t|
-    t.string   "name"
+    t.string   "lastname"
     t.string   "firstname"
     t.string   "company"
     t.string   "visitortype"

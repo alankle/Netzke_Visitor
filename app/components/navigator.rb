@@ -20,9 +20,10 @@ class Navigator < Netzke::Base
       root: {
         expanded: true,
         children: [
+      leaf('Start Here', 'Hns', :report_user),    
 		  leaf('Check-in', 'Visite_form', :door_in),
-          leaf('Check-out', 'Visites_search', :door_out),		  
-		  leaf('Evacuation', 'Visites', :report_user)
+      leaf('Check-out', 'Visites_search', :door_out),
+		  leaf('Evacuation', 'Visites', :page_white_copy)
          
          ]
       }
