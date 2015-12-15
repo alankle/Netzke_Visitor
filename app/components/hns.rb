@@ -5,9 +5,9 @@ class Hns < Netzke::Base
 <table>
 <tr>
 <td>
-<div style="margin-left: 1cm"><br/>
+<div style="margin-left: 1cm">
 <font color="#4c4c4c"><font face="Calibri, sans-serif">
-<h2>Health & Security Instructions : </h2>
+<font size="3"><b>Health & Security Instructions : </b></font>
 <font size="2"><i><br/><br/><img alt="fumer.jpg" src="/images/fumer.jpg" style="height: 40px; margin: 5px; width: 40px"/>Smoking is forbidden on the premises, except in the smoking area</i></font></font></font> <div style="margin-bottom: 0cm"><font color="#4c4c4c"><font face="Calibri, sans-serif"><font size="2"><b>Interdiction de fumer sur le site, excepté dans la zone fumeur</b></font></font></font></div>
 </div>
 <div style="margin-left: 1cm; background: #ffffff"><font color="#4c4c4c"><font face="Calibri, sans-serif"><font size="2">Verboten Rauchen (auβerhalb der Raucherzone)</font></font></font></div>
@@ -58,7 +58,7 @@ EOF
  end
 
   def configure(c) 
-    c.items = [{title: 'Health&Security Instructions', html: HS_HTML }, :visite_form]    
+    c.items = [{title: 'Health & Security Instructions', html: HS_HTML }, :visite_form]    
   end
 
 

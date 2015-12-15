@@ -14,7 +14,7 @@ class Visites_search < Netzke::Basepack::Grid
 	c.title =  "Search your name and Click on Edit Button in order to Check-Out."
 	c.model = "Visite"
     c.enable_edit_inline = false
-    c.columns = [:lastname, :firstname, :signout]
+    c.columns = [:lastname, :firstname, :checkout]
     c.tbar = [
       "Name:", {xtype: 'textfield', attr: :name}
       
