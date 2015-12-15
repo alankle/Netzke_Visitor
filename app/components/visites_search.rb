@@ -5,8 +5,8 @@ class Visites_search < Netzke::Basepack::Grid
     c.delay = 1 # our tests require immediate update
   end
 
-  column :name do |c|
-    c.filter_with = ->(rel, value, op){ rel.where("visites.name like ? ", "%#{value}%")}
+  column :lastname do |c|
+    c.filter_with = ->(rel, value, op){ rel.where("visites.lastname like ? ", "%#{value}%")}
   end
 
   def configure(c)
@@ -16,7 +16,7 @@ class Visites_search < Netzke::Basepack::Grid
     c.enable_edit_inline = false
     c.columns = [:lastname, :firstname, :checkout]
     c.tbar = [
-      "Name:", {xtype: 'textfield', attr: :name}
+      "Last Name:", {xtype: 'textfield', attr: :lastname}
       
     ]	
 	c.bbar = ['->', :edit_in_form]
