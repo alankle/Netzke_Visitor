@@ -80,10 +80,13 @@ GEM
       uglifier
     netzke-testing (0.12.3)
       coffee-script
+    nokogiri (1.6.7)
+      mini_portile2 (~> 2.0.0.rc2)
     nokogiri (1.6.7-x86-mingw32)
       mini_portile2 (~> 2.0.0.rc2)
+    pg (0.18.4)
     pg (0.18.4-x86-mingw32)
-    rack (1.6.4)
+    rack (1.6.13)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.5)
@@ -149,6 +152,7 @@ GEM
       json (>= 1.8.0)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
