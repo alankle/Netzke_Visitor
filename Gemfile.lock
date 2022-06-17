@@ -51,7 +51,8 @@ GEM
     execjs (2.6.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
-    i18n (0.7.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     jbuilder (2.3.2)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
@@ -80,8 +81,11 @@ GEM
       uglifier
     netzke-testing (0.12.3)
       coffee-script
+    nokogiri (1.6.7)
+      mini_portile2 (~> 2.0.0.rc2)
     nokogiri (1.6.7-x86-mingw32)
       mini_portile2 (~> 2.0.0.rc2)
+    pg (0.18.4)
     pg (0.18.4-x86-mingw32)
     rack (1.6.4)
     rack-test (0.6.3)
@@ -149,6 +153,7 @@ GEM
       json (>= 1.8.0)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
